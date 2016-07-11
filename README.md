@@ -7,5 +7,5 @@ This is a programme finder
 ```
 npm install
 grunt
-webpack && node server.js
+webpack && node ./app.js
 ```
