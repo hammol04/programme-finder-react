@@ -1,6 +1,4 @@
 # programme-finder-react
-
-# portfolio
 This is a programme finder
 
 ##Checkout
