@@ -1,0 +1,40 @@
+{
+  "name": "programme-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ajax-promise": "^0.8.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "express": "^4.14.0",
+    "flux": "^2.1.1",
+    "grunt": "^1.0.1",
+    "grunt-sass": "^1.2.0",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.9.2",
+    "object-assign": "^4.1.0",
+    "promise": "^7.1.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1"
+  },
+  "scripts": {
+    "postinstall": "npm run build && grunt build",
+    "build": "webpack --config ./webpack.config.js --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
