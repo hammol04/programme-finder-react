@@ -3,3 +3,4 @@ web/*.css
 .DS_Store
 web/bundle.min.js
 web/bundle.js
+npm-debug.log
